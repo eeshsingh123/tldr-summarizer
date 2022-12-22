@@ -1,4 +1,5 @@
 import { Configuration, OpenAIApi } from "openai";
+require("dotenv").config({ path: ".env" });
 
 const configuration = new Configuration({
   apiKey: process.env.OPEN_API_KEY,
@@ -16,6 +17,7 @@ export default async function handler(req, res) {
     presence_penalty: 0,
     max_tokens: 256,
   });
+
 
   res.status(200).json({ result: completion.data });
 }
