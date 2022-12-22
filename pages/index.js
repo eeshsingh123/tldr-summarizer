@@ -25,7 +25,6 @@ export default function Home() {
     const response = await fetch("/api/summarize", {
       method: "POST",
       headers: {
-        Authorization: `Bearer ${process.env.OPEN_API_KEY}`,
         "Content-Type": "application/json",
       },
       body: JSON.stringify({ text: apiInput }),
