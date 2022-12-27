@@ -49,9 +49,9 @@ export default function Home() {
             </button>
           </div>
           <div>
-            <div className={styles.description}>
+            {/* <div className={styles.description}>
               Input Prompt: {currentPrompt}
-            </div>
+            </div> */}
             <div className={styles.description}>
               Summary (TL;DR):{summaryResult}
             </div>
@@ -78,7 +78,7 @@ export default function Home() {
           <textarea
             rows="20"
             cols="80"
-            className={styles.description}
+            className={styles.placeholder}
             placeholder="Your Article Text Goes Here..."
             ref={inputPrompt}
           ></textarea>
