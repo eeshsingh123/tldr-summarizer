@@ -58,3 +58,17 @@
     padding: 3%;
   
 }
+.input{
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-items: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.or{
+  display: flex;
+  justify-content: center;
+}
