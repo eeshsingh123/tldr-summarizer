@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -11,23 +11,25 @@
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
-    #16abff33 0deg,
-    #0885ff33 55deg,
-    #54d6ff33 120deg,
-    #0071ff33 160deg,
-    transparent 360deg
+  #64bcf4 0 deg,
+  #5bacdf 22 deg,
+  #f1f8fc 37 deg,
+  #312f3a 58deg,
+  #45424b 78 deg,
+  #919191 150 deg,
+  #aaa 360 deg,
   );
   --secondary-glow: radial-gradient(
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0)
+    rgb(126, 191, 230),
+    rgba(235, 249, 251, 0)
   );
 
   --tile-start-rgb: 239, 245, 249;
   --tile-end-rgb: 228, 232, 233;
   --tile-border: conic-gradient(
     #00000080,
-    #00000040,
-    #00000030,
+    #92a7c940,
+    #698da530,
     #00000020,
     #00000010,
     #00000010,
@@ -104,4 +106,8 @@ a {
   html {
     color-scheme: dark;
   }
+} */
+body {
+  background: #dfe9ff;
+  font-family: Lato, sans-serif;
 }
